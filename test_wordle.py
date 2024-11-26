@@ -3,7 +3,6 @@ from unittest.mock import patch, mock_open
 from io import StringIO
 from Wordle import Wordle  # Import your Wordle implementation
 
-
 class TestWordle(unittest.TestCase):
 
     def setUp(self):
